@@ -1,0 +1,74 @@
+@Media screen and (max-width: 1000px) {
+
+
+    .header {
+        flex-direction: column;
+    }
+
+    .headline {
+        flex: 100%;
+        margin-bottom: 1%;
+    }
+
+    .headline-img {
+        flex: 100%;
+        margin-top: 1%;
+
+    }
+
+
+    .servicos {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:605px) {
+    .rodape {
+        display: none;
+    }
+
+    .contrate {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .contrate a {
+        padding: 5px;
+        background: #00ff73;
+        color: white
+    }
+
+
+}
+
+@Media screen and (max-width: 477px) {
+
+    .menu-inicial {
+        display: none;
+    }
+
+    #Logo-principal {
+        text-align: left;
+        margin-left: 5%;
+
+    }
+
+    #Logo-principal h1 {
+        font-size: 27px;
+    }
+
+    .img-marketing {
+        width: 400px;
+        height: 300px;
+    }
+
+    .contrate {
+        top: 10px;
+    }
+
+
+
+
+
+}
